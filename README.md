@@ -1,10 +1,10 @@
-<<<<<<< HEAD
+
 # GML-Connect
 =======
 # GML Edge Telematics - POC « Boîte Noire Télématique »
 
 Preuve de concept (POC) réalisée pour **GreenMove Logistics** dans le cadre de l'examen
-*« Piloter une démarche d'innovation digitale centrée sur l'utilisateur »* (Dossier 4).
+*« Piloter une démarche d'innovation digitale centrée sur l'utilisateur »*.
 
 > **Contexte** : la V1 (Cloud) a échoué (carte ZFE non chargée sans 4G → amende de 375 € ; assureur non convaincu par un GPS passif).
 > La V2 déplace l'intelligence **sur la tablette** (Edge Computing) : tout fonctionne **sans réseau**.
@@ -181,12 +181,3 @@ La **barre latérale** montre à tout moment l'avancement (⬜ → ✅) et perme
 - L'application tourne sur ordinateur ; la version industrielle serait une application Android native réutilisant la même logique.
 - Prochaines étapes : base locale (SQLite) et agrégation des données avant envoi 4G, gestion de compte, interface HUD embarquée.
 
----
-
-## 8. Script de démonstration vidéo (7-8 min)
-
-1. **(1 min)** Accueil : rappeler la V1 en échec et le pivot Edge.
-2. **(3 min)** Module 1 : lancer la simulation, montrer l'**alerte rouge à l'entrée**, la pré-alerte orange, puis le test « points invalides ».
-3. **(3 min)** Module 2 : analyser le fichier **bruité**, montrer la courbe et les 3 freinages isolés, puis le fichier **corrompu** (5 lignes rejetées, aucun plantage), puis `daily_score.json`.
-4. **(1 min)** Terminal : `python test_engines.py` → « Tous les tests sont OK ».
->>>>>>> 9bcd07a (fichier readme ajouté avec les détails: de l'installation à l'utilisation de l'app)
