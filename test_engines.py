@@ -36,4 +36,4 @@ try:
 except ValueError:
     pass
 
-print("Tous les tests sont OK")
+print("Tous les tests sont passés avec succès !")
